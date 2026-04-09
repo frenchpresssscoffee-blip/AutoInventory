@@ -58,14 +58,25 @@ The manager window lets you:
 
 ## Slash commands
 
-- `/ai help`
-- `/ai sell`
-- `/ai bank`
-- `/ai clear`
-- `/ai debug on`
-- `/ai debug off`
-- `/ai ops`
-- `/ai ops clear`
+- `/ai help` - shows the command list
+- `/ai manager` - opens the manager window
+- `/ai bank` - processes bank actions immediately
+- `/ai clear` - clears all saved item categories
+- `/ai settings` - opens the settings panel
+- `/ai debug on` - enables manager debug logging
+- `/ai debug off` - disables manager debug logging
+- `/ai debug clear` - clears manager debug logging
+- `/ai ops` - shows recent addon operations
+- `/ai ops clear` - clears the recent operation log
+- `/ai allowtrash epic|legendary|all on|off` - changes high-end trash protection
+- `/ai allowtrash status` - shows high-end trash protection status
+
+## Notes
+
+- ESO can still have timing quirks around bank, vendor, and loading-screen events.
+- Some actions depend on the correct UI being open, such as a bank or NPC vendor.
+- Trader Prep is a preparation/category workflow, not automatic guild trader listing.
+- If ESO delays item or group data, the addon may need the relevant scene or event to finish loading before everything updates.
 
 ## Files
 
