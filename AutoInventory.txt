@@ -1,0 +1,15 @@
+## Title: AutoInventory
+## APIVersion: 101048
+## Version: 1.0.0
+## Author: AutoInventory Team
+## Description: Automates inventory management - auto-sort, auto-bank, auto-sell trash
+## SavedVariables: AutoInventorySV
+## DependsOn: LibCustomMenu>=1
+## OptionalDependsOn: LibAddonMenu-2.0>=36
+
+AutoInventory.lua
+AutoInventoryState.lua
+AutoInventorySettings.lua
+AutoInventoryCore.lua
+AutoInventoryUI.lua
+AutoInventoryManager.lua
